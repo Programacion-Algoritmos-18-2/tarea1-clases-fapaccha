@@ -13,18 +13,18 @@ public class Ejercicio_1 {
      */
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        Estudiantes e1 = new Estudiantes();
-        System.out.println("Ingrese nombre del Estudiante 1");
-        e1.setNombre(entrada.nextLine());
-        System.out.println("Ingrese Apellido del Estudiante 1 ");
-        e1.setApellido(entrada.nextLine());
-        Estudiantes e2 = new Estudiantes();
-        System.out.println("Ingrese nombre del Estudiante 2");
-        e2.setNombre(entrada.nextLine());
-        System.out.println("Ingrese Apellido del Estudiante 2");
-        e2.setApellido(entrada.nextLine());
-        System.out.println("Nombre Estudiante 1"+e1);
-        System.out.println("Nombre Estudiante 2"+e2);
+        Estudiantes a1 = new Estudiantes();
+        System.out.println("Nombre Alumno 1");
+        a1.setNombre(entrada.nextLine());
+        System.out.println("Apellido Alumno 2 ");
+        a1.setApellido(entrada.nextLine());
+        Estudiantes a2 = new Estudiantes();
+        System.out.println("Nombre Alumno 1");
+        a2.setNombre(entrada.nextLine());
+        System.out.println("Apellido Alumno 2");
+        a2.setApellido(entrada.nextLine());
+        System.out.println("Alumno 1"+a1);
+        System.out.println("Alumno 2"+a2);
     }
 
     
