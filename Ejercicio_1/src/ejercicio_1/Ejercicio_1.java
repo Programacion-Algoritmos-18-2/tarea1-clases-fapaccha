@@ -16,10 +16,10 @@ public class Ejercicio_1 {
         Estudiantes a1 = new Estudiantes();
         System.out.println("Nombre Alumno 1");
         a1.setNombre(entrada.nextLine());
-        System.out.println("Apellido Alumno 2 ");
+        System.out.println("Apellido Alumno 1 ");
         a1.setApellido(entrada.nextLine());
         Estudiantes a2 = new Estudiantes();
-        System.out.println("Nombre Alumno 1");
+        System.out.println("Nombre Alumno 2");
         a2.setNombre(entrada.nextLine());
         System.out.println("Apellido Alumno 2");
         a2.setApellido(entrada.nextLine());
